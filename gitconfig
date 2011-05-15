@@ -10,3 +10,12 @@
     df = diff
     lg = log -p
     lol = log --pretty=oneline --abbrev-commit --graph --decorate
+
+[diff]
+    color = auto
+
+[pager]
+    color = true
+
+[status]
+    color = auto
