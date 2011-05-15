@@ -10,3 +10,6 @@
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/ir_black"]
+	path = vim/bundle/ir_black
+	url = https://github.com/wgibbs/vim-irblack.git
