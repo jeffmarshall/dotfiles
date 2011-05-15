@@ -16,3 +16,6 @@
 [submodule "vim/bundle/html5"]
 	path = vim/bundle/html5
 	url = https://github.com/othree/html5.vim.git
+[submodule "vim/bundle/jade"]
+	path = vim/bundle/jade
+	url = https://github.com/digitaltoad/vim-jade.git
