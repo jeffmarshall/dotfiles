@@ -13,3 +13,6 @@
 [submodule "vim/bundle/ir_black"]
 	path = vim/bundle/ir_black
 	url = https://github.com/wgibbs/vim-irblack.git
+[submodule "vim/bundle/html5"]
+	path = vim/bundle/html5
+	url = https://github.com/othree/html5.vim.git
