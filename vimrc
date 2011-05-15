@@ -6,6 +6,7 @@ set nu
 
 " use 2 spaces for tabs
 set tabstop=2
+set shiftwidth=2
 set expandtab
 syntax on
 
