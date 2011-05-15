@@ -1,3 +1,6 @@
+" uses vim settings instead of vi, supposed to be way awesome
+set nocompatible
+
 " show line numbers
 set nu
 
