@@ -22,4 +22,4 @@ function parse_git_branch1 {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ [\1]/"
 }
 
-export PS1="\[${COLOR_WHITE}\]\u\[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_GREEN}\]\$(parse_git_branch1) \[${COLOR_LIGHT_GRAY}\]\w$ \[${COLOR_NC}\]"
+export PS1="\[${COLOR_WHITE}\]\u \[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_GREEN}\]\$(parse_git_branch1) \[${COLOR_LIGHT_GRAY}\]\w$ \[${COLOR_NC}\]"
