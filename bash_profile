@@ -23,3 +23,23 @@ function parse_git_branch1 {
 }
 
 export PS1="\[${COLOR_WHITE}\]\u \[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_GREEN}\]\$(parse_git_branch1) \[${COLOR_LIGHT_GRAY}\]\w$ \[${COLOR_NC}\]"
+
+## load bash_profile.local if it exists?
+#  example found here: https://github.com/daschu117/homedir/blob/master/bash_profile
+[[ -f ~/.bash_profile.local ]] && . ~/.bash_profile.local
+
+## Git aliases
+#### just testing this out
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
