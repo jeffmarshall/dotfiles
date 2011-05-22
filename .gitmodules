@@ -28,3 +28,6 @@
 [submodule "vim/bundle/markdown"]
 	path = vim/bundle/markdown
 	url = https://github.com/hallison/vim-markdown.git
+[submodule "vim/bundle/stylus"]
+	path = vim/bundle/stylus
+	url = https://github.com/wavded/vim-stylus.git
