@@ -1,3 +1,5 @@
+# aliasing ls to produce a detailed list with colours
+alias ls='ls -lG'
 
 # Setup some colors to use later in interactive shell or scripts
 export COLOR_NC='\e[0m' # No Color
