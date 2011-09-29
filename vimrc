@@ -16,5 +16,5 @@ call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
 " use solarized dark
-colorscheme solarized
+colorscheme Tomorrow-Night
 set background=dark
