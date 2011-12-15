@@ -14,7 +14,9 @@ syntax on
 " highlight the 80th column
 "
 " select text to be wrapped and hit 'gq' to wrap to textwidth
-set textwidth=80
+set textwidth=79
+set colorcolumn=80
+
 
 " this is for pathogen and it's bundles
 filetype off
