@@ -26,3 +26,7 @@ filetype plugin indent on
 " use solarized dark
 colorscheme solarized
 set background=dark
+
+
+" some options for NERDCommenter
+let NERDSpaceDelims=1
