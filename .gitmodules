@@ -46,7 +46,6 @@
 [submodule "vim/bundle/snipmate"]
 	path = vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
-<<<<<<< HEAD
 [submodule "vim/bundle/coffee"]
 	path = vim/bundle/coffee
 	url = https://github.com/kchmck/vim-coffee-script.git
