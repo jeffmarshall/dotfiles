@@ -25,6 +25,7 @@ filetype plugin indent on
 
 " use solarized dark
 colorscheme solarized
+se t_Co=256
 set background=dark
 
 
