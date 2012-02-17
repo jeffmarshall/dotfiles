@@ -52,3 +52,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/hemisu"]
+	path = vim/bundle/hemisu
+	url = https://github.com/noahfrederick/Hemisu.git
