@@ -24,9 +24,10 @@ call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
 " use solarized dark
-colorscheme solarized
 se t_Co=256
 set background=dark
+let g:solarized_termtrans = 1
+colorscheme solarized
 
 
 " some options for NERDCommenter
