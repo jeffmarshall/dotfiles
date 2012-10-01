@@ -56,3 +56,6 @@ _pip_completion()
 complete -o default -F _pip_completion pip
 # pip bash completion end
 
+# screen aliases
+alias sr='screen -r'
+alias sl='screen -list'
