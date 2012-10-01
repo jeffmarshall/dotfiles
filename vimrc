@@ -36,3 +36,10 @@ let NERDSpaceDelims=1
 if match($TERM, "screen")!=-1
   set term=xterm-256color
 endif
+
+" open NERDTree automatically at start
+autocmd vimenter * if !argc() | NERDTree | endif
+autocmd VimEnter * wincmd p
+
+" close vim if the only window left open is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
