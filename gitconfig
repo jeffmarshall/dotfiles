@@ -21,3 +21,4 @@
     color = auto
 [core]
 	editor = vim
+	excludesfile = /home/jeff/.gitignore
