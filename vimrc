@@ -31,3 +31,7 @@ set background=dark
 
 " some options for NERDCommenter
 let NERDSpaceDelims=1
+
+if match($TERM, "screen")!=-1
+  set term=xterm-256color
+endif
