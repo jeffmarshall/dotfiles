@@ -6,8 +6,8 @@ set nu
 
 " use 2 spaces for tabs
 set tabstop=2
-set shiftwidth=2
 set expandtab
+set shiftwidth=2
 syntax on
 
 " use 80 char text width
@@ -39,7 +39,6 @@ endif
 
 " open NERDTree automatically at start
 autocmd vimenter * if !argc() | NERDTree | endif
-autocmd VimEnter * wincmd p
 
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
