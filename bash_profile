@@ -59,3 +59,4 @@ complete -o default -F _pip_completion pip
 # screen aliases
 alias sr='screen -r'
 alias sl='screen -list'
+alias sf='screen -r -d'
