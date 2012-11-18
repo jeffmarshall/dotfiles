@@ -4,6 +4,11 @@ set nocompatible
 " show line numbers
 set nu
 
+" highlight cursor line.
+" doing `set cursorcolumn` will highlight the cursor's column, which may be
+" helpful too.
+set cursorline
+
 " use 2 spaces for tabs
 set tabstop=2
 set expandtab
