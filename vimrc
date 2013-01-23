@@ -22,6 +22,10 @@ syntax on
 set textwidth=79
 set colorcolumn=80
 
+" keep 3 lines between the cursor and the bottom/top of the screen when
+" possible
+set scrolloff=3
+
 
 " this is for pathogen and it's bundles
 filetype off
