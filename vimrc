@@ -51,3 +51,9 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" if there is a readable vimrc.local, use it
+let g:vimrc_local = $HOME . '/.vimrc.local'
+if filereadable(vimrc_local)
+  exec "source ". g:vimrc_local
+endif
