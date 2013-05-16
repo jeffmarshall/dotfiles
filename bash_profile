@@ -61,3 +61,6 @@ complete -o default -F _pip_completion pip
 alias sr='screen -r'
 alias sl='screen -list'
 alias sf='screen -r -d'
+
+# Fixing node-gyp with NFS: https://github.com/TooTallNate/node-gyp/issues/147
+export LINK=g++
