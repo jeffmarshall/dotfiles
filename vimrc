@@ -49,6 +49,9 @@ endif
 " open NERDTree automatically at start
 autocmd vimenter * if !argc() | NERDTree | endif
 
+" Hide files matching certain patterns in NERDTree
+let NERDTreeIgnore = ['\.pyc$']
+
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
