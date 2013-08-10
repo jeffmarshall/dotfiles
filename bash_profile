@@ -1,3 +1,5 @@
+export TERM=xterm-256color
+
 # aliasing ls to produce a detailed list with colours
 alias ls='ls -lGh'
 
