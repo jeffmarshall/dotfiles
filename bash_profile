@@ -48,6 +48,7 @@ alias gra='git remote add'
 alias grr='git remote rm'
 alias gpu='git pull'
 alias gcl='git clone'
+alias grb='git rebase'
 
 # pip bash completion start
 _pip_completion()
