@@ -1,3 +1,5 @@
+export TERM=xterm-256color
+
 # aliasing ls to produce a detailed list with colours
 alias ls='ls -lGh'
 
@@ -46,6 +48,7 @@ alias gra='git remote add'
 alias grr='git remote rm'
 alias gpu='git pull'
 alias gcl='git clone'
+alias grb='git rebase'
 
 # pip bash completion start
 _pip_completion()
@@ -61,3 +64,6 @@ complete -o default -F _pip_completion pip
 alias sr='screen -r'
 alias sl='screen -list'
 alias sf='screen -r -d'
+
+# Fixing node-gyp with NFS: https://github.com/TooTallNate/node-gyp/issues/147
+export LINK=g++
