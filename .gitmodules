@@ -58,3 +58,6 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "vim/bundle/airline"]
+	path = vim/bundle/airline
+	url = https://github.com/bling/vim-airline
