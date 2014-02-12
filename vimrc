@@ -55,6 +55,9 @@ let NERDTreeIgnore = ['\.pyc$']
 " Normal backspace behaviour
 set backspace=2
 
+" set the emmet trigger key
+let g:user_emmet_leader_key='<C-e>'
+
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
