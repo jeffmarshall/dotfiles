@@ -23,16 +23,7 @@ export COLOR_GRAY='\e[1;30m'
 export COLOR_LIGHT_GRAY='\e[0;37m'
 
 function git_branch {
-  local branch_name=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1/")
-
-  if [[ $branch_name != "" ]]; then
-    git diff --quiet 2> /dev/null
-    if [ "$?" -eq "0" ]; then
-      echo " [ $branch_name ]"
-    else
-      echo " { $branch_name }"
-    fi
-  fi
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ [\1]/"
 }
 
 export PS1="\[${COLOR_WHITE}\]\u \[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_GREEN}\]\$(git_branch) \[${COLOR_LIGHT_GRAY}\]\w\n\$ \[${COLOR_NC}\]"
