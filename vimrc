@@ -52,6 +52,9 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " Hide files matching certain patterns in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
 
+" Normal backspace behaviour
+set backspace=2
+
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
