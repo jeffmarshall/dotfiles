@@ -22,5 +22,7 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
+[push]
+    default = matching
 [pull]
     default = matching
