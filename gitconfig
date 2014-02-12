@@ -1,6 +1,6 @@
 [user]
-	name = Jeff Marshall
-	email = jeff@classy.co
+    name = Jeff Marshall
+    email = jeff@classy.co
 
 [alias]
     st = status
@@ -20,5 +20,5 @@
 [status]
     color = auto
 [core]
-	editor = vim
-	excludesfile = ~/.gitignore_global
+    editor = vim
+    excludesfile = ~/.gitignore_global
