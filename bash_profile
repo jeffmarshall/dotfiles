@@ -26,7 +26,7 @@ function git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ [\1]/"
 }
 
-export PS1="\[${COLOR_WHITE}\]\u \[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_GREEN}\]\$(git_branch) \[${COLOR_LIGHT_GRAY}\]\W \$ \[${COLOR_NC}\]"
+export PS1="\[${COLOR_WHITE}\]\u \[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_GREEN}\]\$(git_branch) \[${COLOR_CYAN}\]\W \[${COLOR_LIGHT_GRAY}\]\$ \[${COLOR_NC}\]"
 
 ## load bash_profile.local if it exists?
 #  example found here: https://github.com/daschu117/homedir/blob/master/bash_profile
