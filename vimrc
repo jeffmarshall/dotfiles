@@ -19,6 +19,8 @@ set cursorline
 set tabstop=2
 set expandtab
 set shiftwidth=2
+set autoindent
+
 syntax on
 
 " use 80 char text width
