@@ -7,6 +7,9 @@ set encoding=utf-8
 " show line numbers
 set nu
 
+" Show cursor position and document progression
+set ruler
+
 " highlight cursor line.
 " doing `set cursorcolumn` will highlight the cursor's column, which may be
 " helpful too.
