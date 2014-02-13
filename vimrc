@@ -66,6 +66,9 @@ set backspace=2
 " set the emmet trigger key
 let g:user_emmet_leader_key='<C-e>'
 
+" airline should use powerline symbols
+let g:airline_powerline_fonts = 1
+
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
