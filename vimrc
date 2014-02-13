@@ -1,6 +1,9 @@
 " uses vim settings instead of vi, supposed to be way awesome
 set nocompatible
 
+" use utf-8
+set encoding=utf-8
+
 " show line numbers
 set nu
 
