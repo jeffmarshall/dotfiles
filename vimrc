@@ -72,6 +72,9 @@ let g:airline_powerline_fonts = 1
 " close vim if the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+" Always show the statusline
+set laststatus=2
+
 " if there is a readable vimrc.local, use it
 let g:vimrc_local = $HOME . '/.vimrc.local'
 if filereadable(vimrc_local)
