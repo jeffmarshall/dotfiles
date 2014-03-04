@@ -4,6 +4,9 @@ set nocompatible
 " use utf-8
 set encoding=utf-8
 
+" use "jj" to escape insert mode
+inoremap jj <ESC>
+
 " show line numbers
 set nu
 
