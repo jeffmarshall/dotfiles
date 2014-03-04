@@ -27,4 +27,4 @@
 [pull]
     default = matching
 [color]
-	ui = true
+    ui = true
