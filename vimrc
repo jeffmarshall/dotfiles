@@ -75,6 +75,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " Always show the statusline
 set laststatus=2
 
+" Show trailing whitespace with the same syntax hilighting as an error message
+match ErrorMsg '\s\+$'
+
+" Key binding to remove trailing whitespace at the end of lines
+nnoremap <Leader>rtw :%s/\s\+$//e<CR>
+
 " if there is a readable vimrc.local, use it
 let g:vimrc_local = $HOME . '/.vimrc.local'
 if filereadable(vimrc_local)
