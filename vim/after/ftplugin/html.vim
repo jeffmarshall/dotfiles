@@ -1,4 +1,2 @@
-" This setting is for indentation in html files
-set tabstop=4
-set shiftwidth=4
+" This setting prevents the wrapping of long lines in HTML files.
 set textwidth=0
