@@ -28,3 +28,5 @@
     default = matching
 [color]
     ui = true
+[github]
+	user = jeffmarshall
