@@ -69,6 +69,9 @@ set backspace=2
 " set the emmet trigger key
 let g:user_emmet_leader_key='<C-e>'
 
+" set the spacebar as my leader key
+let mapleader = "\<Space>"
+
 " airline should use powerline symbols
 let g:airline_powerline_fonts = 1
 
