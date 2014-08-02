@@ -22,6 +22,7 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
+	  autocrlf = false
 [push]
     default = matching
 [pull]
@@ -29,4 +30,6 @@
 [color]
     ui = true
 [github]
-	user = jeffmarshall
+  	user = jeffmarshall
+[merge]
+    tool = vimdiff
