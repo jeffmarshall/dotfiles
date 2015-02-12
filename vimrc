@@ -57,9 +57,6 @@ if match($TERM, "screen")!=-1
   set term=xterm-256color
 endif
 
-" open NERDTree automatically at start
-autocmd vimenter * if !argc() | NERDTree | endif
-
 " Hide files matching certain patterns in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
 
