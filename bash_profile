@@ -60,11 +60,6 @@ _pip_completion()
 complete -o default -F _pip_completion pip
 # pip bash completion end
 
-# screen aliases
-alias sr='screen -r'
-alias sl='screen -list'
-alias sf='screen -r -d'
-
 # Fixing node-gyp with NFS: https://github.com/TooTallNate/node-gyp/issues/147
 export LINK=g++
 export PATH=/usr/local/bin:$PATH
