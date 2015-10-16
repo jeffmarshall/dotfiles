@@ -3,6 +3,10 @@ export TERM=xterm-256color
 # aliasing ls to produce a detailed list with colours
 alias ls='ls -lGh'
 
+# helpful aliases
+alias ..='cd ..'
+alias tm='tmux'
+
 # Setup some colors to use later in interactive shell or scripts
 export COLOR_NC='\e[0m' # No Color
 export COLOR_WHITE='\e[1;37m'
