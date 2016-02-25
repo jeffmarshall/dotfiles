@@ -6,6 +6,7 @@ alias ls='ls -lGh'
 # helpful aliases
 alias ..='cd ..'
 alias tm='tmux'
+alias gr='grep -ri'
 
 # Setup some colors to use later in interactive shell or scripts
 export COLOR_NC='\e[0m' # No Color
