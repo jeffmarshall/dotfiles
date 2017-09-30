@@ -1,7 +1,10 @@
 export TERM=xterm-256color
+export EDITOR=vim
 
 # aliasing ls to produce a detailed list with colours
 alias ls='ls -lGh'
+
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 # helpful aliases
 alias ..='cd ..'
