@@ -9,7 +9,7 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 # helpful aliases
 alias ..='cd ..'
 alias tm='tmux'
-alias gr='grep -ri'
+alias gr='grep -rinI'
 
 # Setup some colors to use later in interactive shell or scripts
 export COLOR_NC='\e[0m' # No Color
