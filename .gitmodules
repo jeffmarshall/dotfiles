@@ -97,3 +97,9 @@
 [submodule "vim/bundle/argwrap"]
 	path = vim/bundle/argwrap
 	url = https://github.com/FooSoft/vim-argwrap
+[submodule "vim/bundle/fix-pasting"]
+	path = vim/bundle/fix-pasting
+	url = https://github.com/ryanpcmcquen/fix-vim-pasting.git
+[submodule "vim/bundle/paste"]
+	path = vim/bundle/paste
+	url = https://github.com/ConradIrwin/vim-bracketed-paste
