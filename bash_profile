@@ -36,13 +36,12 @@ function git_branch {
 
 export PS1="\[${COLOR_WHITE}\]\u \[${COLOR_LIGHT_GRAY}\]\h\[${COLOR_LIGHT_GREEN}\]\$(git_branch) \[${COLOR_GREEN}\]\W \[${COLOR_LIGHT_GRAY}\]\$ \[${COLOR_NC}\]"
 
-## load bash_profile.local if it exists?
-#  example found here: https://github.com/daschu117/homedir/blob/master/bash_profile
-[[ -f ~/.bash_profile.local ]] && . ~/.bash_profile.local
-
 ## Git aliases
 #### just testing this out
+alias pwb="git rev-parse --abbrev-ref HEAD"
 alias ga='git add'
+alias gap='git add -p'
+alias gpwb='git push origin `pwb`'
 alias gp='git push'
 alias gl='git log'
 alias gs='git status'
@@ -57,7 +56,13 @@ alias grr='git remote rm'
 alias gpu='git pull'
 alias gcl='git clone'
 alias grb='git rebase'
+alias gwb="git rev-parse --abbrev-ref HEAD"
 
 # Fixing node-gyp with NFS: https://github.com/TooTallNate/node-gyp/issues/147
 export LINK=g++
 export PATH=/usr/local/bin:$PATH
+
+## load bash_profile.local if it exists?
+#  example found here: https://github.com/daschu117/homedir/blob/master/bash_profile
+[[ -f ~/.bash_profile.local ]] && . ~/.bash_profile.local
+if [[ -f /opt/dev/dev.sh ]]; then source /opt/dev/dev.sh; fi
