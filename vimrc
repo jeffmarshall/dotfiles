@@ -79,7 +79,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 set laststatus=2
 
 " ignore certain directories in ctrlp
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_custom_ignore = 'node_modules\|\.DS_Store\|\.git'
 
 " Show trailing whitespace with the same syntax hilighting as an error message
 match ErrorMsg '\s\+$'
