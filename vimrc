@@ -95,3 +95,6 @@ endif
 
 " search highlighting
 set incsearch
+
+" argwrap
+nnoremap <silent> <leader>a :ArgWrap<CR>
