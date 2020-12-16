@@ -91,3 +91,12 @@
 [submodule "vim/bundle/vim-tmux"]
 	path = vim/bundle/vim-tmux
 	url = git://github.com/tmux-plugins/vim-tmux.git
+[submodule "vim/bundle/argwrap"]
+	path = vim/bundle/argwrap
+	url = https://github.com/FooSoft/vim-argwrap
+[submodule "vim/bundle/pug"]
+	path = vim/bundle/pug
+	url = git://github.com/digitaltoad/vim-pug.git
+[submodule "vim/bundle/go"]
+	path = vim/bundle/go
+	url = https://github.com/fatih/vim-go.git
