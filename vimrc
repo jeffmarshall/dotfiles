@@ -79,7 +79,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 set laststatus=2
 
 " ignore certain directories in ctrlp
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_custom_ignore = 'node_modules\|\.DS_Store\|\.git'
 
 " Show trailing whitespace with the same syntax hilighting as an error message
 match ErrorMsg '\s\+$'
@@ -92,29 +92,6 @@ let g:vimrc_local = $HOME . '/.vimrc.local'
 if filereadable(vimrc_local)
   exec "source ". g:vimrc_local
 endif
-
-" automatic pastemode
-function! WrapForTmux(s)
-  if !exists('$TMUX')
-    return a:s
-  endif
-
-  let tmux_start = "\<Esc>Ptmux;"
-  let tmux_end = "\<Esc>\\"
-
-  return tmux_start . substitute(a:s, "\<Esc>", "\<Esc>\<Esc>", 'g') . tmux_end
-endfunction
-
-let &t_SI .= WrapForTmux("\<Esc>[?2004h")
-let &t_EI .= WrapForTmux("\<Esc>[?2004l")
-
-function! XTermPasteBegin()
-  set pastetoggle=<Esc>[201~
-  set paste
-  return ""
-endfunction
-
-inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 " search highlighting
 set incsearch

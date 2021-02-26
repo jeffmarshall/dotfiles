@@ -103,3 +103,12 @@
 [submodule "vim/bundle/lineletters"]
 	path = vim/bundle/lineletters
 	url = https://github.com/skamsie/vim-lineletters.git
+[submodule "vim/bundle/gitgutter"]
+	path = vim/bundle/gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "vim/bundle/fix-pasting"]
+	path = vim/bundle/fix-pasting
+	url = https://github.com/ryanpcmcquen/fix-vim-pasting.git
+[submodule "vim/bundle/paste"]
+	path = vim/bundle/paste
+	url = https://github.com/ConradIrwin/vim-bracketed-paste
