@@ -124,3 +124,6 @@ nnoremap <silent> <leader>a :ArgWrap<CR>
 
 " vim 8.2 disable line num underline
 hi CursorLineNr    term=bold cterm=bold ctermfg=012 gui=bold
+
+" line letters
+nmap <silent>, <Plug>LineLetters
