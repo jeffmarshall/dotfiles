@@ -70,9 +70,6 @@
 [submodule "vim/bundle/delimitMate"]
 	path = vim/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "vim/bundle/howdoi"]
-	path = vim/bundle/howdoi
-	url = https://github.com/laurentgoudet/vim-howdoi.git
 [submodule "vim/bundle/dockerfile"]
 	path = vim/bundle/dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
