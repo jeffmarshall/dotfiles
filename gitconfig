@@ -11,6 +11,9 @@
     lg = log -p
     lol = log --pretty=oneline --abbrev-commit --graph --decorate
 
+[url "https://"]
+        insteadOf = git://
+
 [diff]
     color = auto
 
