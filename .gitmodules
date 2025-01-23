@@ -13,9 +13,6 @@
 [submodule "vim/bundle/html5"]
 	path = vim/bundle/html5
 	url = https://github.com/othree/html5.vim.git
-[submodule "vim/bundle/jade"]
-	path = vim/bundle/jade
-	url = https://github.com/digitaltoad/vim-jade.git
 [submodule "vim/bundle/css3-syntax"]
 	path = vim/bundle/css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
@@ -25,15 +22,9 @@
 [submodule "vim/bundle/markdown"]
 	path = vim/bundle/markdown
 	url = https://github.com/hallison/vim-markdown.git
-[submodule "vim/bundle/stylus"]
-	path = vim/bundle/stylus
-	url = https://github.com/wavded/vim-stylus.git
 [submodule "vim/bundle/less"]
 	path = vim/bundle/less
 	url = https://github.com/jkimbo/vim-less.git
-[submodule "vim/bundle/coffee"]
-	path = vim/bundle/coffee
-	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "vim/bundle/surround"]
 	path = vim/bundle/surround
 	url = git://github.com/tpope/vim-surround.git
