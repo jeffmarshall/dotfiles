@@ -1,102 +1,102 @@
-[submodule "vim/bundle/nerdtree"]
+[submodule "vim/pack/bundle/start/nerdtree"]
 	path = vim/pack/bundle/start/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
-[submodule "vim/bundle/nerdcommenter"]
+[submodule "vim/pack/bundle/start/nerdcommenter"]
 	path = vim/pack/bundle/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "vim/bundle/ir_black"]
+[submodule "vim/pack/bundle/start/ir_black"]
 	path = vim/pack/bundle/start/ir_black
 	url = https://github.com/wgibbs/vim-irblack.git
-[submodule "vim/bundle/html5"]
+[submodule "vim/pack/bundle/start/html5"]
 	path = vim/pack/bundle/start/html5
 	url = https://github.com/othree/html5.vim.git
-[submodule "vim/bundle/css3-syntax"]
+[submodule "vim/pack/bundle/start/css3-syntax"]
 	path = vim/pack/bundle/start/css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "vim/bundle/javascript"]
+[submodule "vim/pack/bundle/start/javascript"]
 	path = vim/pack/bundle/start/javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim/bundle/markdown"]
+[submodule "vim/pack/bundle/start/markdown"]
 	path = vim/pack/bundle/start/markdown
 	url = https://github.com/hallison/vim-markdown.git
-[submodule "vim/bundle/less"]
+[submodule "vim/pack/bundle/start/less"]
 	path = vim/pack/bundle/start/less
 	url = https://github.com/jkimbo/vim-less.git
-[submodule "vim/bundle/surround"]
+[submodule "vim/pack/bundle/start/surround"]
 	path = vim/pack/bundle/start/surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
+[submodule "vim/pack/bundle/start/syntastic"]
+	path = vim/pack/bundle/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "vim/bundle/hemisu"]
+[submodule "vim/pack/bundle/start/hemisu"]
 	path = vim/pack/bundle/start/hemisu
 	url = https://github.com/noahfrederick/Hemisu.git
-[submodule "vim/bundle/gist"]
+[submodule "vim/pack/bundle/start/gist"]
 	path = vim/pack/bundle/start/gist
 	url = git://github.com/mattn/gist-vim.git
-[submodule "vim/bundle/webapi"]
+[submodule "vim/pack/bundle/start/webapi"]
 	path = vim/pack/bundle/start/webapi
 	url = git://github.com/mattn/webapi-vim.git
-[submodule "vim/bundle/airline"]
+[submodule "vim/pack/bundle/start/airline"]
 	path = vim/pack/bundle/start/airline
 	url = https://github.com/bling/vim-airline
-[submodule "vim/bundle/emmet"]
+[submodule "vim/pack/bundle/start/emmet"]
 	path = vim/pack/bundle/start/emmet
 	url = https://github.com/mattn/emmet-vim.git
-[submodule "vim/bundle/ctrlp"]
+[submodule "vim/pack/bundle/start/ctrlp"]
 	path = vim/pack/bundle/start/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "vim/bundle/fugitive"]
+[submodule "vim/pack/bundle/start/fugitive"]
 	path = vim/pack/bundle/start/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "vim/bundle/supertab"]
+[submodule "vim/pack/bundle/start/supertab"]
 	path = vim/pack/bundle/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vim/bundle/delimitMate"]
+[submodule "vim/pack/bundle/start/delimitMate"]
 	path = vim/pack/bundle/start/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "vim/bundle/dockerfile"]
+[submodule "vim/pack/bundle/start/dockerfile"]
 	path = vim/pack/bundle/start/dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "fzf"]
 	path = fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "vim/bundle/jsx"]
+[submodule "vim/pack/bundle/start/jsx"]
 	path = vim/pack/bundle/start/jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule "vim/bundle/typescript"]
+[submodule "vim/pack/bundle/start/typescript"]
 	path = vim/pack/bundle/start/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
-[submodule "vim/bundle/vim-tmux-focus-events"]
-	path = vim/bundle/vim-tmux-focus-events
+[submodule "vim/pack/bundle/start/vim-tmux-focus-events"]
+	path = vim/pack/bundle/start/vim-tmux-focus-events
 	url = git://github.com/tmux-plugins/vim-tmux-focus-events.git
-[submodule "vim/bundle/vim-tmux"]
-	path = vim/bundle/vim-tmux
+[submodule "vim/pack/bundle/start/vim-tmux"]
+	path = vim/pack/bundle/start/vim-tmux
 	url = git://github.com/tmux-plugins/vim-tmux.git
-[submodule "vim/bundle/argwrap"]
+[submodule "vim/pack/bundle/start/argwrap"]
 	path = vim/pack/bundle/start/argwrap
 	url = https://github.com/FooSoft/vim-argwrap
-[submodule "vim/bundle/pug"]
-	path = vim/bundle/pug
+[submodule "vim/pack/bundle/start/pug"]
+	path = vim/pack/bundle/start/pug
 	url = git://github.com/digitaltoad/vim-pug.git
-[submodule "vim/bundle/go"]
+[submodule "vim/pack/bundle/start/go"]
 	path = vim/pack/bundle/start/go
 	url = https://github.com/fatih/vim-go.git
-[submodule "vim/bundle/lineletters"]
+[submodule "vim/pack/bundle/start/lineletters"]
 	path = vim/pack/bundle/start/lineletters
 	url = https://github.com/skamsie/vim-lineletters.git
-[submodule "vim/bundle/gitgutter"]
+[submodule "vim/pack/bundle/start/gitgutter"]
 	path = vim/pack/bundle/start/gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
-[submodule "vim/bundle/fix-pasting"]
-	path = vim/bundle/fix-pasting
+[submodule "vim/pack/bundle/start/fix-pasting"]
+	path = vim/pack/bundle/start/fix-pasting
 	url = https://github.com/ryanpcmcquen/fix-vim-pasting.git
-[submodule "vim/bundle/paste"]
+[submodule "vim/pack/bundle/start/paste"]
 	path = vim/pack/bundle/start/paste
 	url = https://github.com/ConradIrwin/vim-bracketed-paste
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
-[submodule "vim/bundle/solarized"]
+[submodule "vim/pack/bundle/start/solarized"]
 	path = vim/pack/bundle/start/solarized
 	url = https://github.com/altercation/vim-colors-solarized
