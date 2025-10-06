@@ -94,9 +94,9 @@
 [submodule "vim/bundle/paste"]
 	path = vim/pack/bundle/start/paste
 	url = https://github.com/ConradIrwin/vim-bracketed-paste
-[submodule "tmux/plugins"]
-	path = tmux/plugins
-	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
 [submodule "vim/bundle/solarized"]
 	path = vim/pack/bundle/start/solarized
 	url = https://github.com/altercation/vim-colors-solarized
